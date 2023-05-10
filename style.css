@@ -154,3 +154,42 @@ body{
     font-weight: bold;
     text-align: end;
 }
+
+/* Section four */
+
+.section_four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 100px 250px;
+    padding: 50px;
+}
+
+.section_four_title{
+    font-size: 24px;
+    font-weight: bold;
+    color:#e5e7eb;
+    margin-bottom: 5px;
+}
+
+.section_four_text{
+    color:#e5e7eb;
+}
+
+.section_four_button{
+    background-color: #3882F6;
+    border: 1px solid #e5e7eb;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px;
+}
