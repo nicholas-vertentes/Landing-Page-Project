@@ -13,6 +13,8 @@ body{
     background-color: #1F2937;
 }
 
+
+/* Hero */
 .hero{
     display: flex;
     justify-content: space-between;
@@ -39,14 +41,14 @@ body{
     color: #e5e7eb;
 }
 
+/* Section one */
 .section_one{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     padding: 100px 250px;
-    box-sizing: border-box;
-    height: 400px;
+    /* height: 200px; */
     /* border: 1px solid red; */
 }
 
@@ -62,6 +64,7 @@ body{
 
 .section_one_text_content{
     width: 50%;
+    height: 200px
 }
 
 .section_one_title{
@@ -82,5 +85,72 @@ body{
     color: #e5e7eb;
     font-size: 18px;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 2px 20px;
+}
+
+/* Section two */
+
+.section_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.section_two_title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section_two_item_container{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 50px;
+}
+
+.section_two_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section_two_item_image{
+    border: 5px solid #3882F6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.section_two_item_text{
+    text-align: center;
+    width: 150px;
+}
+
+/* Section three */
+
+.section_three{
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+}
+
+.section_three_quote_text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.section_three_quote_author{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
 }
